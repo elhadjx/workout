@@ -7,7 +7,7 @@ const workoutRoutes = require("./routes/workouts");
 // express app
 const app = express();
 
-//middlewareAE
+//middleware
 app.use((req, res, next) => {
   console.log(req.path, req.method);
   next();
